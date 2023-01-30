@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    
+}
+
+
+body{
+    /* background-image: url(../img/image1.png); */
+    background-image: url(../img/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: max-content;
+    background-position: cover;
+    /* background-position: fixed; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.content{
+    display: flex;
+}
+
+
+
+@media screen and (max-width:1500px) {
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        margin: 6rem auto;
+        margin-left: 13rem;
+        padding: 2rem;
+        /* position: fixed; */
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        margin: 10rem auto;
+        margin-left: 13rem;
+        padding: 2rem;
+        /* position: relative; */
+
+
+    }
+    /* .content .login{
+        font-size: 5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: darkblue;
+        text-shadow: 2px 2px 18px blue;
+        margin: 20rem auto;
+        text-align: center;
+        margin-right: 5rem;
+    } */
+
+    
+.name{
+    display: flex;
+    gap: 25px;
+}
+    form{
+        /* background: rgba(0, 0, 0, 0.5); */
+        background: rgba(12, 36, 60, 0.8);
+        padding: 34px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px black;
+    }
+    form label{
+        text-transform: capitalize;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px
+    }
+
+    form .name .ninput{
+        height: 1.8rem;
+        width: 8rem;
+        margin-top: 5px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        text-transform: capitalize ;
+        padding-left: 5px;
+        outline: none;
+
+    }
+
+    /* form .name .ninput:active{
+        border: 1px solid firebrick;
+
+    } */
+
+    form .input{
+        height: 1.8rem;
+        width: 18rem;
+        margin-top: 5px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        padding-left: 5px;
+        outline: none;
+        
+    }
+
+
+
+    form .submit{
+        background: rgba(0, 0, 255, 0.6);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 30px;
+        margin: auto 60px;
+        margin-top: 15px;
+        padding: 10px 70px 10px 70px ;
+        color: white;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        cursor:pointer;
+        box-shadow: 2px 2px 19px black;
+    }
+  
+
+    form .submit:hover{
+        background: darkblue;
+        transition: 1s;
+    }
+
+    
+}
+
+@media screen and (max-width:1400px){
+    /* form{
+        background-color: orange;
+    } */
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        margin: 0 auto;
+        margin-left: 12rem;
+        padding: 2rem;
+        position: static;
+
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        margin: 6rem auto;
+        /* margin-left: 13rem; */
+        padding: 2rem;
+        position: relative;
+
+
+    }
+    /* .content .login{
+        font-size: 5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: darkblue;
+        text-shadow: 2px 2px 18px white;
+        margin: 19rem auto;
+        text-align: center;
+        margin-right: 4.5rem;
+    }  */
+
+}
+@media screen and (max-width:1300px){
+    /* form{
+        background-color: palegreen;
+    } */
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        margin: 1.8rem auto;
+        margin-left: 9rem;
+        padding: 2rem;
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 9rem auto; */
+        margin-left: 10rem;
+        padding: 2rem;
+
+    }
+    /* .content .log{
+        font-size: 5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: darkblue;
+        text-shadow: 2px 2px 18px white;
+        margin-top: 19rem ;
+        text-align: center;
+        margin-right: 4rem;
+    }
+    .content .login{
+        font-size: 5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: darkblue;
+        text-shadow: 2px 2px 18px white;
+        margin: 15rem auto;
+        text-align: center;
+        margin-right: 4rem;
+    } */
+
+}
+@media screen and (max-width:1200px){
+    /* form{
+        background-color: black;
+    } */
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 1rem auto; */
+        margin-left: 7rem;
+        padding: 2rem;
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 7.4rem auto; */
+        margin-left: 7rem;
+        padding: 2rem;
+
+    }
+    
+
+}
+
+@media screen and (max-width:900px){
+    /* form{
+        background-color: yellowgreen;
+    } */
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 1rem auto; */
+        margin-left: 9.5rem;
+        padding: 2rem;
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 7.5rem auto; */
+        margin-left: 9rem;
+        padding: 2rem;
+
+    }
+
+}
+@media screen and (max-width:700px){
+    /* form{
+        background-color: coral;
+    } */
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 1rem auto; */
+        margin-left: 5rem;
+        padding: 2rem;
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 7.4rem auto; */
+        margin-left: 3rem;
+        padding: 2rem;
+
+    }
+
+}
+
+@media screen and (max-width:500px){
+    /* form{
+        background-color: teal;
+    } */
+
+
+    body{
+        /* background-image: url(../img/image1.png); */
+        background-image: url(../img/image2.jpg);
+        background-repeat: no-repeat;
+        background-size: 60rem;
+        width: max-content;
+        background-position: cover;
+        /* background-position: fixed; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    .signup_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 1rem auto; */
+        margin-left: 3px;
+        padding: 2px;
+        position: absolute;
+
+    }
+    .login_form {
+        color: white;
+        max-width: fit-content;
+        /* margin: 7.4rem auto; */
+        margin-left: 1rem;
+        padding: 2rem;
+
+    }
+
+}
+
